@@ -26,4 +26,4 @@ To run this locally, clone the [repository](https://docs.github.com/en/get-start
 ```bash
 git clone https://github.com
 cd roshambo
-python main.py
+javascript main.js
