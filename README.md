@@ -20,10 +20,3 @@ A clean, interactive implementation of the classic game **Roshambo**, built spec
 ## 🛠️ Built With
 *   **[JavaScript](https://github.com/topics/rock-paper-scissors)** (utilising the `random` module for computer choices)
 *   **[Markdown](https://github.com)** (for documentation)
-
-## 📂 Installation
-To run this locally, clone the [repository](https://docs.github.com/en/get-started/start-your-journey/about-github-and-git) and run the main file:
-```bash
-git clone https://github.com
-cd roshambo
-javascript main.js
