@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200..900&display=swap
+">
+</head>
+<body>
+    <h1>Rock Paper Scissor</h1>
+        <span class="player">
+            <div>YOU</div>
+            <div>COMPUTER</div>
+        </span>
+       <h2 id="win-message"></h2>
+        <span class="board">
+            <div id="you-el"></div>
+            <p>V/S</p>
+            <div id="computer-el"></div>
+        </span>
+        <span class="emoji">
+            <button onclick="paper()">🖐🏻</button>
+            <button onclick="rock()">👊🏻</button>
+            <button onclick="scissor()">✌🏻</button>
+        </span>
+        <span class="controls">
+            <button onclick="computerMove()">Computer Move</button>
+            <button onclick="newGame()">NEW GAME</button>
+        </span>
+        <script src="index.js"></script>
+</body>
+</html>
