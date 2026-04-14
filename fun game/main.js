@@ -5,13 +5,21 @@ let moves=["🖐🏻","👊🏻","✌🏻"]
  
 function paper(){
     youEl.textContent = moves[0]
+        computerMove()
+        winMessages()
 }
 function rock(){
     youEl.textContent = moves[1]
+        computerMove()
+        winMessages()
 } 
 function scissor(){
     youEl.textContent = moves[2]
+        computerMove()
+        winMessages()
 }
+
+ 
 function winMessages(){
     if(youEl.textContent == moves[0] && computerEl.textContent == moves[0]){
         winMessage.textContent = "It is tie"
@@ -35,11 +43,10 @@ function winMessages(){
 }
  
 function computerMove(){
-    for( let i=0; i<=moves.length;i++){
+    for( let i=0; i<moves.length;i++){
         let random = moves[Math.floor(Math.random()*moves.length)]
         computerEl.textContent = random
     }
-    winMessages()
 }
 function newGame(){
     youEl.textContent = ""
