@@ -24,7 +24,11 @@ A clean, interactive implementation of the classic game **Roshambo**, built spec
 ## Layout of that
 
 
-<img width="636" height="754" alt="Screenshot 2026-04-08 012409" src="https://github.com/user-attachments/assets/7bc0e53c-f3c5-4b82-a150-91ab70434238" />
 
-<img width="643" height="806" alt="Screenshot 2026-04-08 012025" src="https://github.com/user-attachments/assets/8b392081-f4e4-4b76-9029-a6cdba059dec" />
+<img width="757" height="870" alt="Screenshot 2026-05-04 114547" src="https://github.com/user-attachments/assets/5effbbe8-dfd0-48a6-b2ad-19a12da558d6" />
+
+
+
+<img width="865" height="871" alt="Screenshot 2026-05-04 114459" src="https://github.com/user-attachments/assets/552cbb3a-48aa-4c10-8c88-0ae2115f8de2" />
+
 
